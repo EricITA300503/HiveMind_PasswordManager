@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\passwordmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{10B35AB1-FCCB-41C9-9A8B-555BC0ABCBA9}|PasswordManager.Tests\\PasswordManager.Tests.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager.tests\\passwordmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{10B35AB1-FCCB-41C9-9A8B-555BC0ABCBA9}|PasswordManager.Tests\\PasswordManager.Tests.csproj|solutionrelative:passwordmanager.tests\\passwordmanager.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10B35AB1-FCCB-41C9-9A8B-555BC0ABCBA9}|PasswordManager.Tests\\PasswordManager.Tests.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Program.cs",
+              "RelativeDocumentMoniker": "PasswordManager\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Program.cs",
+              "RelativeToolTip": "PasswordManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T21:44:14.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\appsettings.json",
+              "RelativeDocumentMoniker": "PasswordManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\appsettings.json",
+              "RelativeToolTip": "PasswordManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-29T21:43:07.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PasswordManager\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Data\\AppDbContext.cs",
               "RelativeToolTip": "PasswordManager\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:06:38.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "PasswordManager\\Models\\ApplicationUser.cs",
@@ -60,33 +94,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PasswordManager",
+              "DocumentIndex": 4,
+              "Title": "PasswordManager.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
               "RelativeDocumentMoniker": "PasswordManager\\PasswordManager.csproj",
               "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
               "RelativeToolTip": "PasswordManager\\PasswordManager.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-29T19:56:43.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T19:56:43.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PasswordManager.Tests",
+              "DocumentIndex": 5,
+              "Title": "PasswordManager.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager.Tests\\PasswordManager.Tests.csproj",
               "RelativeDocumentMoniker": "PasswordManager.Tests\\PasswordManager.Tests.csproj",
               "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager.Tests\\PasswordManager.Tests.csproj",
               "RelativeToolTip": "PasswordManager.Tests\\PasswordManager.Tests.csproj",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-29T19:55:57.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T19:55:57.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "PasswordManager.Tests\\UnitTest1.cs",
@@ -94,8 +126,7 @@
               "RelativeToolTip": "PasswordManager.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T19:55:54.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T19:55:54.083Z"
             }
           ]
         }
