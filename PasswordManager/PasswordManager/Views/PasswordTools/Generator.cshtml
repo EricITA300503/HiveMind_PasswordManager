@@ -1,38 +1,48 @@
-﻿@section Scripts {
-    <script>
-        // Generate password — calls POST /api/passwordtools/generate
-        $('#btnGenerate').on('click', function() {
-            const opts = {
-                length:           parseInt($('#length').val()),
-                includeUppercase: $('#chkUpper').is(':checked'),
-                includeNumbers:   $('#chkNumbers').is(':checked'),
-                includeSymbols:   $('#chkSymbols').is(':checked')
-            };
-            $.ajax({
-                url:         '/api/passwordtools/generate',
-                type:        'POST',
-                contentType: 'application/json',
-                data:        JSON.stringify(opts),
-                success: function(res) {
-                    $('#generatedPassword').val(res.password);
-                    checkStrength(res.password);
-                }
-            });
-        });
-
-        // Strength check — calls GET /api/passwordtools/strength?pw=...
-        function checkStrength(pw) {
-            $.get('/api/passwordtools/strength', { pw: pw }, function(res) {
-                const colours = ['danger','warning','info','success','success'];
-                $('#strengthBar')
-                    .removeClass('bg-danger bg-warning bg-info bg-success')
-                    .addClass('bg-' + colours[res.score])
-                    .css('width', ((res.score + 1) * 20) + '%');
-                $('#strengthLabel').text(res.label);
-            });
-        }
-
-        // Also check strength as user types
-        $('#generatedPassword').on('input', function() { checkStrength($(this).val()); });
-    </script>
+﻿@model PasswordManager.Models.ViewModels.PasswordOptions
+@{
+    ViewBag.Title = "Password Generator";
 }
+
+<h2>Password Generator</h2>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <form asp-action="Generator" method="post" class="card p-4 shadow-sm">
+            <div class="mb-3">
+                <label asp-for="Length" class="form-label font-weight-bold">Password Length: <span id="lengthDisplay">@Model.Length</span></label>
+                <input asp-for="Length" type="range" class="form-range" min="8" max="64" oninput="document.getElementById('lengthDisplay').innerText = this.value" />
+            </div>
+
+            <div class="form-check mb-2">
+                <input asp-for="IncludeUppercase" class="form-check-input" />
+                <label asp-for="IncludeUppercase" class="form-check-label">Include Uppercase</label>
+            </div>
+
+            <div class="form-check mb-2">
+                <input asp-for="IncludeNumbers" class="form-check-input" />
+                <label asp-for="IncludeNumbers" class="form-check-label">Include Numbers</label>
+            </div>
+
+            <div class="form-check mb-4">
+                <input asp-for="IncludeSymbols" class="form-check-input" />
+                <label asp-for="IncludeSymbols" class="form-check-label">Include Symbols</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Generate Password</button>
+        </form>
+    </div>
+
+    @if (ViewBag.GeneratedPassword != null)
+    {
+        <div class="col-md-6 mt-4 mt-md-0">
+            <div class="alert alert-success h-100">
+                <h4 class="alert-heading">Your Password:</h4>
+                <div class="bg-white border rounded p-3 mb-3 mt-3">
+                    <p class="fs-4 font-monospace text-break mb-0 text-center">@ViewBag.GeneratedPassword</p>
+                </div>
+                <hr />
+                <p class="mb-0"><strong>Strength:</strong> @ViewBag.StrengthLabel (Score: @ViewBag.StrengthScore / 4)</p>
+            </div>
+        </div>
+    }
+</div>
