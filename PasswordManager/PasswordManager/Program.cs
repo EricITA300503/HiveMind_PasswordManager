@@ -46,5 +46,4 @@ using (var scope = app.Services.CreateScope())
     await PasswordManager.Data.DbSeeder.SeedAsync(scope.ServiceProvider);
 
 app.Run();
-app.Run();
 
