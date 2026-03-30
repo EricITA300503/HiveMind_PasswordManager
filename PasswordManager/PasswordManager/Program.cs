@@ -16,6 +16,15 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 //Now I'm registering MVC   
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddScoped<IVaultRepository, VaultRepository>();
+builder.Services.AddScoped<IVaultService, VaultService>();
+builder.Services.AddScoped<IEncryptionService, EncryptionService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IActivityLogService, ActivityLogService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddDataProtection();  // needed for EncryptionService
+
 var app = builder.Build();
 
 app.UseStaticFiles();
