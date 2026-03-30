@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|solutionrelative:passwordmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34CEA0C3-0B9D-4E3B-B01B-1221D6025A76}|PasswordManager\\PasswordManager.csproj|c:\\users\\pc\\documents\\sem 5\\net technologies\\passwordmanager\\hivemind_passwordmanager\\passwordmanager\\passwordmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,24 +54,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "PasswordManager\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "PasswordManager\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:02:51.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "PasswordManager\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "PasswordManager\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:02:01.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PasswordManager\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PasswordManager\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:00:35.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "PasswordManager\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "PasswordManager\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:58:50.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Program.cs",
               "RelativeDocumentMoniker": "PasswordManager\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Program.cs",
               "RelativeToolTip": "PasswordManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T21:44:14.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\appsettings.json",
               "RelativeDocumentMoniker": "PasswordManager\\appsettings.json",
@@ -63,12 +131,11 @@
               "RelativeToolTip": "PasswordManager\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-29T21:43:07.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T21:43:07.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PasswordManager\\Data\\AppDbContext.cs",
@@ -81,20 +148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "PasswordManager\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "PasswordManager\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T20:04:03.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PasswordManager.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager\\PasswordManager.csproj",
               "RelativeDocumentMoniker": "PasswordManager\\PasswordManager.csproj",
@@ -106,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "PasswordManager.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager.Tests\\PasswordManager.Tests.csproj",
               "RelativeDocumentMoniker": "PasswordManager.Tests\\PasswordManager.Tests.csproj",
@@ -118,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\Sem 5\\NET Technologies\\PasswordManager\\HiveMind_PasswordManager\\PasswordManager\\PasswordManager.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "PasswordManager.Tests\\UnitTest1.cs",
