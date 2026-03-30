@@ -3,3 +3,5 @@ bin/
 obj/
 [Bb]in/
 [Oo]bj/
+*.user
+*.csproj.user
