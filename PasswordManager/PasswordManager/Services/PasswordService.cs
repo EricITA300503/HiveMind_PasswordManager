@@ -1,35 +1,43 @@
-using System.Security.Cryptography;
 using PasswordManager.Models.ViewModels;
+using System;
+using System.Linq;
+using System.Text;
 
-public class PasswordService : IPasswordService
+namespace PasswordManager.Services
 {
-    public string GeneratePassword(PasswordOptions opts)
+    public class PasswordService : IPasswordService
     {
-        const string lower   = "abcdefghijklmnopqrstuvwxyz";
-        const string upper   = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        const string digits  = "0123456789";
-        const string symbols = "!@#$%^&*()";
+        public string GeneratePassword(PasswordOptions options)
+        {
+            const string lowercase = "abcdefghijklmnopqrstuvwxyz";
+            const string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            const string numbers = "0123456789";
+            const string symbols = "!@#$%^&*()_-+=[{]};:<>|./?";
 
-        var charset = lower;
-        if (opts.IncludeUppercase) charset += upper;
-        if (opts.IncludeNumbers)   charset += digits;
-        if (opts.IncludeSymbols)   charset += symbols;
+            var charSet = new StringBuilder(lowercase);
+            if (options.IncludeUppercase) charSet.Append(uppercase);
+            if (options.IncludeNumbers) charSet.Append(numbers);
+            if (options.IncludeSymbols) charSet.Append(symbols);
 
-        return new string(Enumerable.Range(0, opts.Length)
-            .Select(_ => charset[RandomNumberGenerator.GetInt32(charset.Length)])
-            .ToArray());
-    }
+            var random = new Random();
+            var password = new char[options.Length];
+            var setAsString = charSet.ToString();
 
-    public StrengthResult CheckStrength(string pw)
-    {
-        int score = 0;
-        if (pw.Length >= 8)  score++;
-        if (pw.Length >= 12) score++;
-        if (pw.Any(char.IsUpper) && pw.Any(char.IsLower)) score++;
-        if (pw.Any(char.IsDigit)) score++;
-        if (pw.Any(c => !char.IsLetterOrDigit(c))) score++;
-        score = Math.Min(score, 4);
-        var labels = new[] { "Very Weak", "Weak", "Fair", "Strong", "Very Strong" };
-        return new StrengthResult { Score = score, Label = labels[score] };
+            for (int i = 0; i < options.Length; i++)
+            {
+                password[i] = setAsString[random.Next(setAsString.Length)];
+            }
+
+            return new string(password);
+        }
+
+        public StrengthResult EvaluateStrength(string password)
+        {
+            return new StrengthResult
+            {
+                Score = password.Length >= 12 ? 4 : 2,
+                Label = password.Length >= 12 ? "Strong" : "Weak"
+            };
+        }
     }
 }

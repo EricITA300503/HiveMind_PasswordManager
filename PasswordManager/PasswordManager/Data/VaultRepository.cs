@@ -38,3 +38,4 @@ namespace PasswordManager.Data
         //Save
         public void Save() => _context.SaveChanges();
     }
+}

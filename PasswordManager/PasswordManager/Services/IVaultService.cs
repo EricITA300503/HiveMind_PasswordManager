@@ -1,9 +1,15 @@
-// Services/IVaultService.cs
-public interface IVaultService
+using PasswordManager.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace PasswordManager.Services
 {
-    IEnumerable<VaultEntry> SearchEntries(string userId, string? query, int? catId);
-    VaultEntry? GetById(int id);
-    Task CreateEntryAsync(VaultEntry entry);
-    Task UpdateEntryAsync(VaultEntry entry);
-    void DeleteEntry(int id);
+    public interface IVaultService
+    {
+        IEnumerable<VaultEntry> SearchEntries(string userId, string? search, int? catId);
+        VaultEntry? GetEntryById(int id);
+        Task CreateEntryAsync(VaultEntry entry);
+        Task UpdateEntryAsync(VaultEntry entry);
+        Task DeleteEntryAsync(int id);
+    }
 }
