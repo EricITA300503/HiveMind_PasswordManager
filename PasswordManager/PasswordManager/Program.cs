@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PasswordManager.Data;
 using PasswordManager.Models;
+using PasswordManager.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 
 //Now I'm registering MVC   
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IActivityLogRepository, ActivityLogRepository>();
+
 
 var app = builder.Build();
 
