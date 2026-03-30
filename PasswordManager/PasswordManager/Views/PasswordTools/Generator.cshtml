@@ -1,13 +1,38 @@
-﻿@{
-    ViewBag.Title = "Password Generator";
+﻿@section Scripts {
+    <script>
+        // Generate password — calls POST /api/passwordtools/generate
+        $('#btnGenerate').on('click', function() {
+            const opts = {
+                length:           parseInt($('#length').val()),
+                includeUppercase: $('#chkUpper').is(':checked'),
+                includeNumbers:   $('#chkNumbers').is(':checked'),
+                includeSymbols:   $('#chkSymbols').is(':checked')
+            };
+            $.ajax({
+                url:         '/api/passwordtools/generate',
+                type:        'POST',
+                contentType: 'application/json',
+                data:        JSON.stringify(opts),
+                success: function(res) {
+                    $('#generatedPassword').val(res.password);
+                    checkStrength(res.password);
+                }
+            });
+        });
+
+        // Strength check — calls GET /api/passwordtools/strength?pw=...
+        function checkStrength(pw) {
+            $.get('/api/passwordtools/strength', { pw: pw }, function(res) {
+                const colours = ['danger','warning','info','success','success'];
+                $('#strengthBar')
+                    .removeClass('bg-danger bg-warning bg-info bg-success')
+                    .addClass('bg-' + colours[res.score])
+                    .css('width', ((res.score + 1) * 20) + '%');
+                $('#strengthLabel').text(res.label);
+            });
+        }
+
+        // Also check strength as user types
+        $('#generatedPassword').on('input', function() { checkStrength($(this).val()); });
+    </script>
 }
-
-<h2>Password Generator</h2>
-
-<div class="card mt-3">
-    <div class="card-body">
-        <form method="post" action="/PasswordTools/Generate">
-            <button class="btn btn-primary" type="submit">Generate Password</button>
-        </form>
-    </div>
-</div>
