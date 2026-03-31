@@ -1,19 +1,38 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PasswordManager.Models.ViewModels;
+using PasswordManager.Services;
 
 namespace PasswordManager.Controllers
 {
-    
+
     [Authorize]
     public class PasswordToolsController : Controller
     {
-        public PasswordToolsController()
+        private readonly IPasswordService _passwordService;
+
+        public PasswordToolsController(IPasswordService passwordService)
         {
+            _passwordService = passwordService;
         }
 
+        [HttpGet]
         public IActionResult Generator()
         {
-            return View();
+            return View(new PasswordOptions());
+        }
+
+        [HttpPost]
+        public IActionResult Generator(PasswordOptions options)
+        {
+            var generatedPassword = _passwordService.GeneratePassword(options);
+            var strength = _passwordService.EvaluateStrength(generatedPassword);
+
+            ViewBag.GeneratedPassword = generatedPassword;
+            ViewBag.StrengthLabel = strength.Label;
+            ViewBag.StrengthScore = strength.Score;
+
+            return View(options);
         }
     }
 }

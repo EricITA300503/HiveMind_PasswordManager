@@ -7,5 +7,7 @@ namespace PasswordManager.Services
     {
         void LogAction(string userId, string action, string ipAddress);
         IEnumerable<ActivityLog> GetRecentLogs();
+
+        Task LogActionAsync(string userId, string action, string ipAddress);
     }
 }

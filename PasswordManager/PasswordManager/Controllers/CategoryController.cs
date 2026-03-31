@@ -6,6 +6,7 @@ using PasswordManager.Services;
 
 namespace PasswordManager.Controllers
 {
+
     [Authorize]
     public class CategoryController : Controller
     {
@@ -41,20 +42,27 @@ namespace PasswordManager.Controllers
         public IActionResult Edit(int id)
         {
             var category = _repo.GetCategoryById(id);
-            if (category == null) return NotFound();
+            if (category == null || category._userId != _userManager.GetUserId(User)) return NotFound();
+
             return View(category);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Category category)
+        {
+            if (!ModelState.IsValid) return View(category);
+
+            category._userId = _userManager.GetUserId(User)!;
+            _repo.Update(category);
+
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Delete(int id)
         {
             var category = _repo.GetCategoryById(id);
-            if (category == null) return NotFound();
-            return View(category);
-        }
+            if (category == null || category._userId != _userManager.GetUserId(User)) return NotFound();
 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
-        {
             _repo.Delete(id);
             return RedirectToAction(nameof(Index));
         }
