@@ -1,0 +1,10 @@
+﻿@model PasswordManager.Models.VaultEntry
+
+<h2>Details</h2>
+
+<p><strong>Site:</strong> @Model._siteName</p>
+<p><strong>Username:</strong> @Model._username</p>
+<p><strong>Password:</strong> @Model._encryptedPassword</p>
+<p><strong>Notes:</strong> @Model._notes</p>
+
+<a asp-action="Index">Back</a>

@@ -1,0 +1,18 @@
+﻿@model PasswordManager.Models.ViewModels.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="All" class="text-danger mb-2"></div>
+
+    <input asp-for="Email" class="form-control mb-2" placeholder="Email" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+
+    <input asp-for="Password" type="password" class="form-control mb-2" placeholder="Password" />
+    <span asp-validation-for="Password" class="text-danger"></span>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
