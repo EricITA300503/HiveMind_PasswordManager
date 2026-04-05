@@ -20,7 +20,7 @@ namespace PasswordManager.ApiControllers
 
 
 
-       
+
         [HttpPost("generate")]
         public IActionResult Generate([FromBody] PasswordOptions opts)
         {
@@ -30,13 +30,13 @@ namespace PasswordManager.ApiControllers
             return Ok(new { password });
         }
 
-        
+
 
 
         [HttpGet("strength")]
         public IActionResult CheckStrength([FromQuery] string pw)
         {
-            var result = _passwordService.CheckStrength(pw);
+            var result = _passwordService.EvaluateStrength(pw);
 
 
             return Ok(result);
@@ -45,4 +45,5 @@ namespace PasswordManager.ApiControllers
 
         }
     }
+}
 

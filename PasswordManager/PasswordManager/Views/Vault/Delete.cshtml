@@ -1,0 +1,13 @@
+﻿@model PasswordManager.Models.VaultEntry
+
+<h2>Delete Entry</h2>
+
+<p>Are you sure you want to delete this?</p>
+
+<p><strong>@Model._siteName</strong></p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="_entryId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

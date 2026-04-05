@@ -1,0 +1,24 @@
+﻿@model PasswordManager.Models.ViewModels.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<form asp-action="Register" method="post">
+    <div asp-validation-summary="All" class="text-danger mb-2"></div>
+
+    <input asp-for="FullName" class="form-control mb-2" placeholder="Full Name" />
+    <span asp-validation-for="FullName" class="text-danger"></span>
+
+    <input asp-for="Email" class="form-control mb-2" placeholder="Email" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+
+    <input asp-for="Password" type="password" class="form-control mb-2" placeholder="Password" />
+    <span asp-validation-for="Password" class="text-danger"></span>
+
+    <input asp-for="ConfirmPassword" type="password" class="form-control mb-2" placeholder="Confirm Password" />
+    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+    <button type="submit" class="btn btn-success">Register</button>
+</form>
