@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿// ============================================================
+// File:    Category.cs
+// Author:  Benjamin Mathies
+// Purpose: Entity class for a user-defined vault category.
+// ============================================================
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManager.Models

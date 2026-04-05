@@ -1,4 +1,9 @@
-﻿using PasswordManager.Data;
+﻿// ============================================================
+// File:    CategoryRepository.cs
+// Author:  Benjamin Mathies
+// Purpose: EF Core implementation of ICategoryRepository.
+// ============================================================
+using PasswordManager.Data;
 using PasswordManager.Models;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,3 +1,9 @@
+// ============================================================
+// File:    PasswordOptions.cs
+// Author:  Benjamin Mathies
+// Purpose: ViewModel for password generator options. Sent
+//          as JSON body to the generate API endpoint.
+// ============================================================
 namespace PasswordManager.Models.ViewModels
 {
 

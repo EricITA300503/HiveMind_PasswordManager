@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// ============================================================
+// File:    VaultController.cs
+// Author:  Maurice Henriques
+// Purpose: MVC controller for vault entry CRUD and search.
+//          Enforces per-user data ownership on all actions.
+// ============================================================
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Data;

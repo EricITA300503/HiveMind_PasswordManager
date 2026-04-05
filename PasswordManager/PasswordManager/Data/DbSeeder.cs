@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿// ============================================================
+// File:    DbSeeder.cs
+// Author:  Miguel Lumaban
+// Purpose: Seeds default Admin and User roles and creates
+//          the default admin account on first run.
+// ============================================================
+using Microsoft.AspNetCore.Identity;
 using PasswordManager.Models;
 
 namespace PasswordManager.Data

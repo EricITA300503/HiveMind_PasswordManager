@@ -1,4 +1,10 @@
-﻿using PasswordManager.Models.ViewModels;
+﻿// ============================================================
+// File:    IPasswordService.cs
+// Author:  Benjamin Mathies
+// Purpose: Contract interface for password generation and
+//          strength checking.
+// ============================================================
+using PasswordManager.Models.ViewModels;
 
 namespace PasswordManager.Services
 {

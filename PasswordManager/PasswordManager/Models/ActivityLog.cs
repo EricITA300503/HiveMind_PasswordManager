@@ -1,4 +1,10 @@
-﻿using System;
+﻿// ============================================================
+// File:    ActivityLog.cs
+// Author:  Eric Bertero
+// Purpose: Entity class for an audit log record.
+//          Append-only — never modified after creation.
+// ============================================================
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManager.Models

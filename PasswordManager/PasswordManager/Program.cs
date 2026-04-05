@@ -1,3 +1,9 @@
+// ============================================================
+// File:    Program.cs
+// Author:  Miguel Lumaban
+// Purpose: Application entry point. Registers all services
+//          and configures the HTTP request pipeline.
+// ============================================================
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PasswordManager.Data;

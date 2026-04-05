@@ -1,4 +1,10 @@
-﻿using System;
+﻿// ============================================================
+// File:    VaultEntry.cs
+// Author:  Maurice Henriques
+// Purpose: Entity class for a saved credential. Password
+//          field stores AES-encrypted ciphertext only.
+// ============================================================
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManager.Models

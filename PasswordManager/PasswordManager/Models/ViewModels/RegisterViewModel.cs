@@ -1,4 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿// ============================================================
+// File:    RegisterViewModel.cs
+// Author:  Miguel Lumaban
+// Purpose: ViewModel for the registration form (name, email,
+//          password, confirmation).
+// ============================================================
+using System.ComponentModel.DataAnnotations;
 
 namespace PasswordManager.Models.ViewModels
 {

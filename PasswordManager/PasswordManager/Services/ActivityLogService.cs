@@ -1,4 +1,10 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    ActivityLogService.cs
+// Author:  Eric Bertero
+// Purpose: Business logic for recording and retrieving
+//          system activity logs.
+// ============================================================
+using PasswordManager.Models;
 using System.Collections.Generic;
 
 namespace PasswordManager.Services

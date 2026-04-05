@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿// ============================================================
+// File:    ApplicationUser.cs
+// Author:  Miguel Lumaban
+// Purpose: Extends IdentityUser with FullName, IsActive,
+//          and CreatedAt fields.
+// ============================================================
+using Microsoft.AspNetCore.Identity;
 
 namespace PasswordManager.Models
 {

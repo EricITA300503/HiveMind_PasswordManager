@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿// ============================================================
+// File:    UserService.cs
+// Author:  Eric Bertero
+// Purpose: Admin user management. Wraps Identity's
+//          UserManager for the admin panel.
+// ============================================================
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PasswordManager.Models;
 using System.Collections.Generic;

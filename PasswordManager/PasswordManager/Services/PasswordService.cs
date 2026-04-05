@@ -1,3 +1,9 @@
+// ============================================================
+// File:    PasswordService.cs
+// Author:  Benjamin Mathies
+// Purpose: Generates secure passwords using
+//          RandomNumberGenerator and evaluates strength.
+// ============================================================
 using PasswordManager.Models.ViewModels;
 using System;
 using System.Linq;

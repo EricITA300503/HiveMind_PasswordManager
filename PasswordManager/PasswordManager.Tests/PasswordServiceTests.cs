@@ -1,4 +1,10 @@
-﻿using NUnit.Framework;
+﻿// ============================================================
+// File:    PasswordServiceTests.cs
+// Author:  Miguel Lumaban
+// Purpose: NUnit tests for PasswordService. Verifies password
+//          length, character sets, and strength scoring.
+// ============================================================
+using NUnit.Framework;
 using PasswordManager.Models.ViewModels;
 using PasswordManager.Services;
 

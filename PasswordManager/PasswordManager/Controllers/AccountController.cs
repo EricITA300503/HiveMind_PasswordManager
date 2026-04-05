@@ -1,4 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿// ============================================================
+// File:    AccountController.cs
+// Author:  Miguel Lumaban
+// Purpose: Handles user registration, login, and logout.
+//          Uses ASP.NET Core Identity and logs logins via
+//          ActivityLogService.
+// ============================================================using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models;
 using PasswordManager.Models.ViewModels;

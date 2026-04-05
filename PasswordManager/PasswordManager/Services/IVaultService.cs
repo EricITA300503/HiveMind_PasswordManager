@@ -1,3 +1,8 @@
+// ============================================================
+// File:    IVaultService.cs
+// Author:  Maurice Henriques
+// Purpose: Contract interface for vault entry business logic.
+// ============================================================
 using PasswordManager.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;

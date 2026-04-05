@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// ============================================================
+// File:    AdminController.cs
+// Author:  Eric Bertero
+// Purpose: MVC controller for the admin panel. Manages user
+//          accounts and activity log. Admin role only.
+// ============================================================
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models;

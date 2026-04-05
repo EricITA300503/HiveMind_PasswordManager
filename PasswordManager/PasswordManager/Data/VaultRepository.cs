@@ -1,11 +1,13 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    VaultRepository.cs
+// Author:  Maurice Henriques
+// Purpose: EF Core implementation of IVaultRepository.
+//          Handles all database operations for vault entries.
+// ============================================================
+using PasswordManager.Models;
 
 namespace PasswordManager.Data
 {
-
-
-    //EF core implementation
-
     public class VaultRepository : IVaultRepository
     {
         private readonly AppDbContext _context;

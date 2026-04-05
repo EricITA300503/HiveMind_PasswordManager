@@ -1,3 +1,9 @@
+// ============================================================
+// File:    HomeController.cs
+// Author:  Miguel Lumaban
+// Purpose: Default MVC controller for the home and privacy
+//          pages. Entry point for the application.
+// ============================================================
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models;

@@ -1,4 +1,10 @@
-﻿using PasswordManager.Data;
+﻿// ============================================================
+// File:    ActivityLogRepository.cs
+// Author:  Eric Bertero
+// Purpose: EF Core implementation of IActivityLogRepository.
+//          Persists and retrieves log records ordered by date.
+// ============================================================
+using PasswordManager.Data;
 using PasswordManager.Models;
 using System.Collections.Generic;
 using System.Linq;

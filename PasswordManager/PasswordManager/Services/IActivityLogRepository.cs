@@ -1,4 +1,9 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    IActivityLogRepository.cs
+// Author:  Eric Bertero
+// Purpose: Repository interface for activity log data access.
+// ============================================================
+using PasswordManager.Models;
 
 namespace PasswordManager.Services
 {

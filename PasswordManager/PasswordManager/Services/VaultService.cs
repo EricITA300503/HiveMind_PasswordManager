@@ -1,3 +1,10 @@
+// ============================================================
+// File:    VaultService.cs
+// Author:  Maurice Henriques
+// Purpose: Business logic for vault entry operations.
+//          Delegates encryption to EncryptionService before
+//          persisting passwords.
+// ============================================================
 using PasswordManager.Data;
 using PasswordManager.Models;
 using System.Collections.Generic;

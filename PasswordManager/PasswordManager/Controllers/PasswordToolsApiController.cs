@@ -1,4 +1,9 @@
-﻿
+﻿// ============================================================
+// File:    PasswordToolsApiController.cs
+// Author:  Benjamin Mathies
+// Purpose: Web API for password generation and strength check.
+//          Endpoints called by jQuery AJAX on the Generator page.
+// ============================================================
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models.ViewModels;
 using PasswordManager.Services;

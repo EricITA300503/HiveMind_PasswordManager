@@ -1,4 +1,9 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    ICategoryRepository.cs
+// Author:  Benjamin Mathies
+// Purpose: Repository interface for category data access.
+// ============================================================
+using PasswordManager.Models;
 
 namespace PasswordManager.Services
 {

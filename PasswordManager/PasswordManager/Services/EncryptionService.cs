@@ -1,4 +1,9 @@
-// Services/EncryptionService.cs
+// ============================================================
+// File:    EncryptionService.cs
+// Author:  Maurice Henriques
+// Purpose: Encrypts and decrypts vault passwords using the
+//          ASP.NET Core Data Protection API.
+// ============================================================
 using Microsoft.AspNetCore.DataProtection;
 
 public class EncryptionService : IEncryptionService

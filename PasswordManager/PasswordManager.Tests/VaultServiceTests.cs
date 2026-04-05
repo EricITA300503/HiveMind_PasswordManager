@@ -1,4 +1,10 @@
-﻿using Moq;
+﻿// ============================================================
+// File:    VaultServiceTests.cs
+// Author:  Miguel Lumaban
+// Purpose: NUnit tests for VaultService. Uses Moq to verify
+//          search filtering and encryption delegation.
+// ============================================================
+using Moq;
 using NUnit.Framework;
 using PasswordManager.Data;
 using PasswordManager.Models;

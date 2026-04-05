@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// ============================================================
+// File:    CategoryController.cs
+// Author:  Benjamin Mathies
+// Purpose: MVC controller for user category CRUD.
+//          Enforces per-user ownership on all actions.
+// ============================================================
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models;

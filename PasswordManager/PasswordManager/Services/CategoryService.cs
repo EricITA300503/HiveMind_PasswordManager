@@ -1,4 +1,10 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    CategoryService.cs
+// Author:  Eric Bertero
+// Purpose: Business logic for category management.
+//          Delegates to ICategoryRepository.
+// ============================================================
+using PasswordManager.Models;
 using System.Collections.Generic;
 
 namespace PasswordManager.Services

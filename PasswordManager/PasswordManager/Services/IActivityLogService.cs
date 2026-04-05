@@ -1,4 +1,9 @@
-﻿using PasswordManager.Models;
+﻿// ============================================================
+// File:    IActivityLogService.cs
+// Author:  Eric Bertero
+// Purpose: Contract interface for the activity log service.
+// ============================================================
+using PasswordManager.Models;
 using System.Collections.Generic;
 
 namespace PasswordManager.Services

@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿// ============================================================
+// File:    AppDbContext.cs
+// Author:  Miguel Lumaban
+// Purpose: EF Core database context. Extends IdentityDbContext
+//          and configures all entity relationships.
+// ============================================================
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PasswordManager.Models;
 

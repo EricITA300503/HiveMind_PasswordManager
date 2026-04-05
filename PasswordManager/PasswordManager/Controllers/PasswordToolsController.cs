@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿// ============================================================
+// File:    PasswordToolsController.cs
+// Author:  Benjamin Mathies
+// Purpose: MVC controller for the password generator page.
+// ============================================================
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PasswordManager.Models.ViewModels;
 using PasswordManager.Services;
